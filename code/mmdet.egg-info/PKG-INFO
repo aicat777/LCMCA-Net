@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: mmdet
+Version: 2.11.0
+Summary: OpenMMLab Detection Toolbox and Benchmark
+Home-page: https://github.com/open-mmlab/mmdetection
+Author: OpenMMLab
+Author-email: openmmlab@gmail.com
+License: Apache License 2.0
+Keywords: computer vision,object detection
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib
+Requires-Dist: mmpycocotools
+Requires-Dist: numpy
+Requires-Dist: six
+Requires-Dist: terminaltables
+Requires-Dist: timm
+Provides-Extra: all
+Requires-Dist: cython; extra == "all"
+Requires-Dist: numpy; extra == "all"
+Requires-Dist: albumentations>=0.3.2; extra == "all"
+Requires-Dist: cityscapesscripts; extra == "all"
+Requires-Dist: imagecorruptions; extra == "all"
+Requires-Dist: mmlvis; extra == "all"
+Requires-Dist: scipy; extra == "all"
+Requires-Dist: sklearn; extra == "all"
+Requires-Dist: matplotlib; extra == "all"
+Requires-Dist: mmpycocotools; extra == "all"
+Requires-Dist: numpy; extra == "all"
+Requires-Dist: six; extra == "all"
+Requires-Dist: terminaltables; extra == "all"
+Requires-Dist: timm; extra == "all"
+Requires-Dist: asynctest; extra == "all"
+Requires-Dist: codecov; extra == "all"
+Requires-Dist: flake8; extra == "all"
+Requires-Dist: interrogate; extra == "all"
+Requires-Dist: isort==4.3.21; extra == "all"
+Requires-Dist: kwarray; extra == "all"
+Requires-Dist: onnx==1.7.0; extra == "all"
+Requires-Dist: onnxruntime==1.5.1; extra == "all"
+Requires-Dist: pytest; extra == "all"
+Requires-Dist: ubelt; extra == "all"
+Requires-Dist: xdoctest>=0.10.0; extra == "all"
+Requires-Dist: yapf; extra == "all"
+Provides-Extra: tests
+Requires-Dist: asynctest; extra == "tests"
+Requires-Dist: codecov; extra == "tests"
+Requires-Dist: flake8; extra == "tests"
+Requires-Dist: interrogate; extra == "tests"
+Requires-Dist: isort==4.3.21; extra == "tests"
+Requires-Dist: kwarray; extra == "tests"
+Requires-Dist: onnx==1.7.0; extra == "tests"
+Requires-Dist: onnxruntime==1.5.1; extra == "tests"
+Requires-Dist: pytest; extra == "tests"
+Requires-Dist: ubelt; extra == "tests"
+Requires-Dist: xdoctest>=0.10.0; extra == "tests"
+Requires-Dist: yapf; extra == "tests"
+Provides-Extra: build
+Requires-Dist: cython; extra == "build"
+Requires-Dist: numpy; extra == "build"
+Provides-Extra: optional
+Requires-Dist: albumentations>=0.3.2; extra == "optional"
+Requires-Dist: cityscapesscripts; extra == "optional"
+Requires-Dist: imagecorruptions; extra == "optional"
+Requires-Dist: mmlvis; extra == "optional"
+Requires-Dist: scipy; extra == "optional"
+Requires-Dist: sklearn; extra == "optional"

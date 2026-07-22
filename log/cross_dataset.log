@@ -1,0 +1,106 @@
+apex is not installed
+apex is not installed
+apex is not installed
+apex is not installed
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+load checkpoint from local path: /mnt/cs_dsns_public/cs_dsns_panwentao/code/od/code/work_dirs/backup/dior/convnext_tiny_adamw_6x/latest.pth
+Detection results remapped to NWPU VHR-10 classes.
+
+Evaluating bbox...
+Loading and preparing results...
+DONE (t=0.18s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.26s).
+Accumulating evaluation results...
+DONE (t=0.10s).
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.524
+Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=1000 ] = 0.700
+Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=1000 ] = 0.604
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.456
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.523
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.601
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.638
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=300 ] = 0.638
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=1000 ] = 0.638
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.611
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.607
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.658
+
++--------------------+-------+--------------+-------+------------------+-------+
+| category           | AP    | category     | AP    | category         | AP    |
++--------------------+-------+--------------+-------+------------------+-------+
+| airplane           | 0.758 | ship         | 0.172 | storage_tank     | 0.768 |
+| baseball_diamond   | 0.828 | tennis_court | 0.748 | basketball_court | 0.757 |
+| ground_track_field | 0.855 | harbor       | 0.183 | bridge           | 0.124 |
+| vehicle            | 0.046 | None         | None  | None             | None  |
++--------------------+-------+--------------+-------+------------------+-------+
+
+============================================================
+Cross-dataset Evaluation: DIOR -> NWPU
+============================================================
+mAP@0.5:0.95: 0.5240
+mAP@0.5: 0.7000
+mAP@0.75: 0.6040
+
+Per-class AP:
+0.524 0.700 0.604 0.456 0.523 0.601
+============================================================
+apex is not installed
+apex is not installed
+apex is not installed
+apex is not installed
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+load checkpoint from local path: /mnt/cs_dsns_public/cs_dsns_panwentao/code/od/code/work_dirs/backup/dw/lcv7_tiny_adamw_6x/latest.pth
+Detection results remapped to NWPU VHR-10 classes.
+
+Evaluating bbox...
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.26s).
+Accumulating evaluation results...
+DONE (t=0.09s).
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.560
+Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=1000 ] = 0.740
+Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=1000 ] = 0.647
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.506
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.553
+Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.609
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.654
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=300 ] = 0.654
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=1000 ] = 0.654
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.621
+Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.618
+Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.673
+
++--------------------+-------+--------------+-------+------------------+-------+
+| category           | AP    | category     | AP    | category         | AP    |
++--------------------+-------+--------------+-------+------------------+-------+
+| airplane           | 0.782 | ship         | 0.321 | storage_tank     | 0.782 |
+| baseball_diamond   | 0.829 | tennis_court | 0.727 | basketball_court | 0.766 |
+| ground_track_field | 0.904 | harbor       | 0.289 | bridge           | 0.141 |
+| vehicle            | 0.059 | None         | None  | None             | None  |
++--------------------+-------+--------------+-------+------------------+-------+
+
+============================================================
+Cross-dataset Evaluation: DIOR -> NWPU
+============================================================
+mAP@0.5:0.95: 0.5600
+mAP@0.5: 0.7400
+mAP@0.75: 0.6470
+
+Per-class AP:
+0.560 0.740 0.647 0.506 0.553 0.609
+============================================================
